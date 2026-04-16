@@ -10,9 +10,9 @@ import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Invicto 3D | Impresiones 3D Personalizadas en Buenos Aires",
+  title: "Invicto 3D | Impresiones 3D Personalizadas en Cordoba",
   description:
-    "Impresiones 3D personalizadas de calidad. Figuras, accesorios, repuestos, decoración. Cotizá gratis, entrega en 2-7 días. Buenos Aires.",
+    "Impresiones 3D personalizadas de calidad. Figuras, accesorios, repuestos, decoración. Cotizá gratis, entrega en 2-7 días. Cordoba.",
 };
 
 export default function HomePage() {
