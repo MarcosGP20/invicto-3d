@@ -6,45 +6,62 @@ export interface Product {
   precio: string;
   imagen: string;
   categoria: string;
+  etiqueta?: string;
+  textoBoton?: string;
+  tiempoEntrega?: string;
 }
 
 export const products: Product[] = [
   {
     id: 1,
-    nombre: "Llaveros personalizados",
-    descripcion: "Llaveros personales o regalo",
+    nombre: "Merchandising Corporativo: Soportes",
+    descripcion:
+      "El regalo empresarial ideal para posicionar tu marca. Diseños resistentes con logo personalizado.",
     material: "PLA",
-    precio: "$",
-    imagen: "/images/products/airpods-holder.jpg",
-    categoria: "Accesorios",
+    precio: "Consultar",
+    imagen: "/soporte-amarillo.webp",
+    categoria: "Ventas Mayoristas",
+    etiqueta: "+50 unidades",
+    textoBoton: "Pedir presupuesto",
+    tiempoEntrega: "48-72hs",
   },
   {
     id: 2,
-    nombre: "Piezas a medida",
-    descripcion: "Pieza personalizada para tu decoración",
-    material: "Resina",
-    precio: "$",
-    imagen: "/pieza-batman.jpeg",
-    categoria: "Figuras",
+    nombre: "Premiaciones y Eventos Deportivos",
+    descripcion:
+      "Medallas personalizadas de alta fidelidad. Fabricación ágil para clubes, torneos y maratones.",
+    material: "PLA",
+    precio: "Consultar",
+    imagen: "/medallas.webp",
+    categoria: "Ventas Mayoristas",
+    etiqueta: "Diseño bonificado",
+    textoBoton: "Hablar con un asesor",
+    tiempoEntrega: "5-7 días",
   },
   {
     id: 3,
-    nombre: "Medallas deportivas",
-    descripcion: "Medallas personalizadas para eventos deportivos",
-    material: "PLA + LED",
-    precio: "$",
-    imagen: "/images/products/lamp.jpg",
-    categoria: "Decoración",
+    nombre: "Producción de Lotes a Pedido",
+    descripcion:
+      "¿Tenés un diseño propio? Escalamos tu idea con tecnología 3D para producciones en serie de bajo costo.",
+    material: "PLA",
+    precio: "Consultar",
+    imagen: "/soporte-verde.webp",
+    categoria: "Ventas Mayoristas",
+    etiqueta: "Envío a todo el país",
+    textoBoton: "Cotizar por lote",
+    tiempoEntrega: "A convenir",
   },
-  {
-    id: 4,
-    nombre: "Soporte Celular",
-    descripcion: "Soporte ergonómico para smartphone",
-    material: "TPU Flexible",
-    precio: "$",
-    imagen: "/images/products/phone-stand.jpg",
-    categoria: "Accesorios",
-  },
+  // {
+  //   id: 4,
+  //   nombre: "Soporte Celular",
+  //   descripcion: "Soporte ergonómico para smartphone",
+  //   material: "TPU Flexible",
+  //   precio: "$3500",
+  //   imagen: "/soporte-amarillo.webp",
+  //   categoria: "Accesorios",
+  //   textoBoton: "Ver catálogo",
+  //   tiempoEntrega: "24-48hs",
+  // },
   // {
   //   id: 5,
   //   nombre: "Organizador Escritorio",

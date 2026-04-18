@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Sobre Nosotros | Invicto 3D",
   description:
-    "Conocé el equipo detrás de Invicto 3D. Apasionados por la fabricación digital y la impresión 3D de calidad en Buenos Aires.",
+    "Conocé el equipo detrás de Invicto 3D. Apasionados por la fabricación digital y la impresión 3D de calidad en Córdoba. Especialistas en ventas mayoristas.",
 };
 
 export default function SobreNosotrosPage() {
@@ -36,8 +36,8 @@ export default function SobreNosotrosPage() {
                 </p>
                 <p className="leading-relaxed text-gray-600">
                   Hoy contamos con un equipo de impresoras de última generación —tanto FDM como
-                  resina— y atendemos clientes en todo Buenos Aires y el país. Desde piezas
-                  industriales de precisión hasta figuras decorativas únicas.
+                  resina— y atendemos clientes en toda Córdoba y el país. Desde piezas
+                  industriales hasta grandes lotes de productos personalizados (soportes, medallas, etc).
                 </p>
                 <p className="leading-relaxed text-gray-600">
                   Nuestro compromiso es simple: calidad en cada capa, transparencia en cada

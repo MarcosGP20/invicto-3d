@@ -41,8 +41,8 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-gray-300 sm:text-xl">
-            Imprimimos cualquier cosa que imagines: accesorios, figuras,
-            repuestos, decoración y más. Calidad premium, entrega en 2-7 días.
+            Especialistas en ventas mayoristas: 30 soportes de celulares, 200 medallas,
+            regalos empresariales y más. Calidad premium, entrega en 2-7 días.
           </p>
 
           {/* Stats */}

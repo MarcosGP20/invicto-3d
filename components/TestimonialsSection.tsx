@@ -24,7 +24,7 @@ export default function TestimonialsSection() {
         <div className="text-center">
           <h2 className="section-title">Lo que dicen nuestros clientes</h2>
           <p className="section-subtitle mx-auto max-w-xl">
-            Más de 500 clientes satisfechos en Buenos Aires y todo el país.
+            Más de 500 clientes satisfechos en Córdoba y todo el país.
           </p>
         </div>
 

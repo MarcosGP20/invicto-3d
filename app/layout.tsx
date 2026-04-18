@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     template: "%s | Invicto 3D",
   },
   description:
-    "Impresiones 3D de calidad en Buenos Aires. Productos personalizados, figuras, accesorios, piezas industriales. Cotizá gratis y recibí en 2-7 días.",
+    "Impresiones 3D de calidad en Córdoba. Ventas mayoristas, 30 soportes de celulares, 200 medallas, piezas industriales. Cotizá gratis y recibí en 2-7 días.",
   keywords: [
     "impresión 3D",
-    "impresiones 3D Buenos Aires",
+    "impresiones 3D Córdoba",
     "figuras personalizadas",
     "piezas 3D",
     "PLA",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     siteName: "Invicto 3D",
     title: "Invicto 3D | Impresiones 3D Personalizadas",
     description:
-      "Impresiones 3D de calidad en Buenos Aires. Productos personalizados, cotizá gratis.",
+      "Impresiones 3D de calidad en Córdoba. Productos personalizados y ventas mayoristas, cotizá gratis.",
     images: [
       {
         url: "/images/og-image.jpg",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Invicto 3D | Impresiones 3D Personalizadas",
     description:
-      "Impresiones 3D de calidad en Buenos Aires. Cotizá gratis.",
+      "Impresiones 3D de calidad en Córdoba. Cotizá gratis.",
     images: ["/images/og-image.jpg"],
   },
   robots: {

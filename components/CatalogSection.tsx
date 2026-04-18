@@ -42,7 +42,7 @@ export default function CatalogSection() {
         </div>
 
         {/* Grid */}
-        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {filtrados.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
