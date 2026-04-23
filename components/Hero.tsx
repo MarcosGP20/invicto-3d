@@ -33,10 +33,11 @@ export default function Hero() {
           </div>
 
           {/* Headline */}
-          <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-6xl lg:text-7xl">
-            Tus ideas en{" "}
+          <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-6xl lg:text-7xl">
+            Tus ideas en
+            <br className="sm:hidden" />
             <span className="bg-gradient-to-r from-brand-400 to-brand-600 bg-clip-text text-transparent">
-              3D real
+              3D encontralas acá
             </span>
           </h1>
 
