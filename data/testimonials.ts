@@ -4,31 +4,43 @@ export interface Testimonial {
   rol: string;
   texto: string;
   rating: number;
+  avatarBg: string;
+  avatarText: string;
+  initials: string;
 }
 
 export const testimonials: Testimonial[] = [
   {
     id: 1,
-    nombre: "Martina García",
-    rol: "Diseñadora de interiores",
+    nombre: "Expreso Calcabrini",
+    rol: "Empresa de transporte",
     texto:
-      "Excelente calidad y entrega rápida. Las macetas geométricas que encargué quedaron perfectas para mi proyecto. Recomiendo 100%.",
+      "Excelente calidad y entrega rápida. Los vasos choperos personalizados superaron nuestras expectativas! Recomendamos 100%.",
     rating: 5,
+    avatarBg: "bg-blue-100",
+    avatarText: "text-blue-700",
+    initials: "EC",
   },
   {
     id: 2,
-    nombre: "Federico López",
-    rol: "Jugador de rol",
+    nombre: "Himalaya Viajes Cofico",
+    rol: "Agencia de viajes",
     texto:
-      "Pedí figuras personalizadas para mi campaña de D&D y superaron mis expectativas. El nivel de detalle es increíble.",
+      "Pedí portalápices personalizados para mi negocio como regalos para mis clientes, todos se van muy contentos. El nivel de detalle es increíble.",
     rating: 5,
+    avatarBg: "bg-emerald-100",
+    avatarText: "text-emerald-700",
+    initials: "HV",
   },
   {
     id: 3,
-    nombre: "Empresa TechParts SA",
-    rol: "Manufactura industrial",
+    nombre: "Destefanis Travel",
+    rol: "Agencia de viajes",
     texto:
-      "Muy profesionales. Nos fabricaron repuestos personalizados en tiempo récord y con precisión exacta. Los seguimos usando.",
+      "Muy profesionales. Nos personalizaron porta celulares para entregar en nuestros eventos y la verdad que estamos satisfechos. Siempre cumplen con los tiempos establecidos.",
     rating: 5,
+    avatarBg: "bg-violet-100",
+    avatarText: "text-violet-700",
+    initials: "DT",
   },
 ];

@@ -39,8 +39,10 @@ export default function TestimonialsSection() {
                 &ldquo;{t.texto}&rdquo;
               </blockquote>
               <div className="mt-6 flex items-center gap-3">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-brand-100 text-sm font-bold text-brand-700">
-                  {t.nombre.charAt(0)}
+                <div
+                  className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-full ${t.avatarBg} text-sm font-bold ${t.avatarText} ring-2 ring-white shadow-sm`}
+                >
+                  {t.initials}
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray-900">{t.nombre}</p>
